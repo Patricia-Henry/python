@@ -1,0 +1,12 @@
+weight = input("enter your weight in lbs: ")
+height = input("enter your height in inches: ")
+
+height = int(height)**2
+weight = int(weight)* 703
+
+print(type(height))
+print(type(weight))
+
+bmi = weight / height
+bmi_integer = int(bmi)
+print(bmi_integer)
